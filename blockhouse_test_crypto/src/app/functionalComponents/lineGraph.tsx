@@ -6,8 +6,8 @@ import { colors } from "../globalVariables";
 export const generateLineGraph = (values: number[], coinID: number): string | null => {
     if (values.length === 0) return null;
 
-    const canvasWidth = 500;
-    const canvasHeight = 250;
+    const canvasWidth = 1000;
+    const canvasHeight = 100;
     const padding = canvasHeight * 0.03; // 3% padding
 
     const minValue = Math.min(...values);
